@@ -1,6 +1,6 @@
 import chalk from "chalk";
 
-async function runDay(){
+ function runDay(){
     try {
         console.log(chalk.blue(`🎄 Advent of Code 🎄`))
     } 
@@ -9,3 +9,5 @@ async function runDay(){
         console.log(chalk.red(`Error - ${error}`))
     }
 }
+
+runDay()
