@@ -1,0 +1,13 @@
+{
+  "name": "advent-of-code-solutions",
+  "version": "1.0.0",
+  "description": "Advent of Code puzzle solutions",
+  "type": "module",
+  "scripts": {
+    "start": "node run.js",
+    "day": "node run.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
