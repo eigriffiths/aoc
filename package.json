@@ -4,10 +4,15 @@
   "description": "Advent of Code puzzle solutions",
   "type": "module",
   "scripts": {
-    "start": "node run.js",
-    "day": "node run.js"
+    "start": "ts-node --loader ts-node/esm run.ts",
+    "day": "ts-node --loader ts-node/esm run.ts"
   },
   "dependencies": {
     "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }
