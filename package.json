@@ -1,18 +1,16 @@
 {
-  "name": "advent-of-code-solutions",
-  "version": "1.0.0",
-  "description": "Advent of Code puzzle solutions",
-  "type": "module",
-  "scripts": {
-    "start": "ts-node --loader ts-node/esm run.ts",
-    "day": "ts-node --loader ts-node/esm run.ts"
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src"
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "dependencies": {
-    "chalk": "^5.3.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.10.1",
-    "ts-node": "^10.9.2",
+    "chalk": "^5.3.0",
+    "process": "^0.11.10",
     "typescript": "^5.7.2"
   }
 }
